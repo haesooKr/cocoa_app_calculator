@@ -7,6 +7,9 @@ namespace haesooCalculator
 {
     public partial class ViewController : NSViewController
     {
+        public int Result = 0;
+        public bool isNewNum = true;
+
         public ViewController(IntPtr handle) : base(handle)
         {
         }
@@ -79,6 +82,14 @@ namespace haesooCalculator
         partial void Btn9(NSObject sender)
         {
             SetNum("9");
+        }
+
+        partial void BtnPlus(NSObject sender)
+        {
+            int num = int.Parse(NumDisplay.StringValue);
+            Result = Result + num;
+            NumDisplay.StringValue = Result.ToString();
+            isNewNum = true;
         }
 
         public void SetNum(string num)
