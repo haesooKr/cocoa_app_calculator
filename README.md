@@ -7,4 +7,4 @@ Cocoa Calculator App (with Visual Studio Mac)
 - Basic Operators (Add, Subtract, Multiply, Divide, Equal)
 - Clear Sign
 
-<Img src="./preview.png" width=600px>
+<Img src="./haesooCalculator/preview.png" width=600px>
