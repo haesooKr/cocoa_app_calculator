@@ -684,7 +684,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Haesoo's Calculator" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -895,16 +895,15 @@
                                 </connections>
                             </button>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d96-WG-LSq">
-                                <rect key="frame" x="387" y="28" width="48" height="48"/>
+                                <rect key="frame" x="262" y="-43" width="230" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="LJd-Ov-ygt"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="logo" id="LJd-Ov-ygt"/>
                             </imageView>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="BtnEqual" destination="Zdl-nT-t96" id="cl4-fD-oWa"/>
                         <outlet property="BtnPlus" destination="feK-0R-MgH" id="14a-pD-lJ2"/>
-                        <outlet property="LogoImage" destination="d96-WG-LSq" id="2qM-GC-wEk"/>
                         <outlet property="NumDisplay" destination="NzE-I2-r3x" id="eUI-PW-QIN"/>
                     </connections>
                 </viewController>
@@ -913,4 +912,7 @@
             <point key="canvasLocation" x="75" y="655"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo" width="500" height="500"/>
+    </resources>
 </document>

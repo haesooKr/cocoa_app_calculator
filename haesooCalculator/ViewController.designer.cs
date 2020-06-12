@@ -13,9 +13,6 @@ namespace haesooCalculator
 	partial class ViewController
 	{
 		[Outlet]
-		AppKit.NSImageView LogoImage { get; set; }
-
-		[Outlet]
 		AppKit.NSTextField NumDisplay { get; set; }
 
 		[Action ("BtnClear:")]
@@ -32,11 +29,6 @@ namespace haesooCalculator
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (LogoImage != null) {
-				LogoImage.Dispose ();
-				LogoImage = null;
-			}
-
 			if (NumDisplay != null) {
 				NumDisplay.Dispose ();
 				NumDisplay = null;

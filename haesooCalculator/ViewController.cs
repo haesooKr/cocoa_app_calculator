@@ -23,7 +23,6 @@ namespace haesooCalculator
             base.ViewDidLoad();
 
             // Do any additional setup after loading the view.
-            Console.WriteLine("Running");
         }
 
         public override NSObject RepresentedObject
@@ -92,8 +91,7 @@ namespace haesooCalculator
 
             NumDisplay.StringValue = "0";
         }
-
-
+  
 
         public void SetNum(string num)
         {
