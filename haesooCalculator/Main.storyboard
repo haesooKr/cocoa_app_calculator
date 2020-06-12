@@ -717,7 +717,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="Btn1:" target="XfG-lQ-9wD" id="nbq-l6-ST5"/>
+                                    <action selector="BtnNum:" target="XfG-lQ-9wD" id="DX8-qU-VD4"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="37K-o7-M8R">
@@ -728,7 +728,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="Btn2:" target="XfG-lQ-9wD" id="hzg-iQ-9aQ"/>
+                                    <action selector="BtnNum:" target="XfG-lQ-9wD" id="WGz-vj-7Zw"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zlx-1z-0Xk">
@@ -739,7 +739,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="Btn3:" target="XfG-lQ-9wD" id="9e9-oI-iqM"/>
+                                    <action selector="BtnNum:" target="XfG-lQ-9wD" id="i3l-JE-xOl"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lmi-e3-LtM">
@@ -750,7 +750,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="Btn5:" target="XfG-lQ-9wD" id="Hsc-NX-0gL"/>
+                                    <action selector="BtnNum:" target="XfG-lQ-9wD" id="yoK-Qw-EJF"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LTB-OT-VTz">
@@ -761,7 +761,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="Btn6:" target="XfG-lQ-9wD" id="1Wx-qR-B8j"/>
+                                    <action selector="BtnNum:" target="XfG-lQ-9wD" id="i2E-fa-Luc"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8f5-Jl-4cI">
@@ -772,7 +772,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="Btn4:" target="XfG-lQ-9wD" id="xUo-uV-qgB"/>
+                                    <action selector="BtnNum:" target="XfG-lQ-9wD" id="DD3-Yq-AxW"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CCB-v3-qyL">
@@ -783,7 +783,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="Btn8:" target="XfG-lQ-9wD" id="eI4-o2-JeI"/>
+                                    <action selector="BtnNum:" target="XfG-lQ-9wD" id="ziS-oh-p09"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CxD-bG-Pmv">
@@ -794,7 +794,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="Btn0:" target="XfG-lQ-9wD" id="lcR-pu-E4r"/>
+                                    <action selector="BtnNum:" target="XfG-lQ-9wD" id="8xW-0T-eWB"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Bj-B5-qho">
@@ -805,7 +805,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="Btn9:" target="XfG-lQ-9wD" id="Pgd-FE-DTQ"/>
+                                    <action selector="BtnNum:" target="XfG-lQ-9wD" id="4Qk-jK-X0L"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dzc-dZ-2kY">
@@ -816,7 +816,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="Btn7:" target="XfG-lQ-9wD" id="IsK-1d-hZC"/>
+                                    <action selector="BtnNum:" target="XfG-lQ-9wD" id="PhM-Rm-g3V"/>
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NzE-I2-r3x">
@@ -864,7 +864,6 @@
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="Btn1" destination="ziv-BG-0Z3" id="FXj-DM-Wbs"/>
                         <outlet property="BtnEqual" destination="Zdl-nT-t96" id="cl4-fD-oWa"/>
                         <outlet property="BtnPlus" destination="feK-0R-MgH" id="14a-pD-lJ2"/>
                         <outlet property="NumDisplay" destination="NzE-I2-r3x" id="eUI-PW-QIN"/>
