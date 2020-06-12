@@ -836,7 +836,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="BtnPlus:" target="XfG-lQ-9wD" id="w9c-S8-7mc"/>
+                                    <action selector="BtnOperator:" target="XfG-lQ-9wD" id="Y09-Qr-KfO"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="peY-Cp-MGE">
@@ -847,7 +847,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="BtnMinus:" target="XfG-lQ-9wD" id="Mcs-c3-4pG"/>
+                                    <action selector="BtnOperator:" target="XfG-lQ-9wD" id="W3d-lL-w3w"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zdl-nT-t96">
@@ -859,6 +859,28 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="BtnEqual:" target="XfG-lQ-9wD" id="ScI-XF-yMS"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8iv-Z9-EtV">
+                                <rect key="frame" x="178" y="146" width="46" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="X" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="cEH-O2-M9M">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system" size="8"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="BtnOperator:" target="XfG-lQ-9wD" id="Coh-zg-Z3V"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rd0-77-Tx9">
+                                <rect key="frame" x="214" y="146" width="51" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="%" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xOB-f7-Xn4">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="BtnOperator:" target="XfG-lQ-9wD" id="sHq-Id-JRG"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -18,14 +18,11 @@ namespace haesooCalculator
 		[Action ("BtnEqual:")]
 		partial void BtnEqual (Foundation.NSObject sender);
 
-		[Action ("BtnMinus:")]
-		partial void BtnMinus (Foundation.NSObject sender);
-
 		[Action ("BtnNum:")]
 		partial void BtnNum (Foundation.NSObject sender);
 
-		[Action ("BtnPlus:")]
-		partial void BtnPlus (Foundation.NSObject sender);
+		[Action ("BtnOperator:")]
+		partial void BtnOperator (Foundation.NSObject sender);
 		
 		void ReleaseDesignerOutlets ()
 		{
