@@ -94,11 +94,14 @@ namespace haesooCalculator
 
         public void SetNum(string num)
         {
-            if (NumDisplay.StringValue == "0")
+            if (isNewNum)
             {
                 NumDisplay.StringValue = num;
-            }
-            else
+                isNewNum = false;
+            } else if (NumDisplay.StringValue == "0")
+            {
+                NumDisplay.StringValue = num;
+            } else
             {
                 NumDisplay.StringValue += num;
             }
