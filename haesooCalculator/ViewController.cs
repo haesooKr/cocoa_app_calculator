@@ -83,6 +83,16 @@ namespace haesooCalculator
             NumDisplay.StringValue = Result.ToString();
         }
 
+        partial void BtnClear(NSObject sender)
+        {
+            Result = 0;
+            Current = 0;
+            isNewNum = true;
+            Opt = Operators.None;
+
+            NumDisplay.StringValue = "0";
+        }
+
 
 
         public void SetNum(string num)
