@@ -30,5 +30,14 @@ namespace haesooCalculator
                 // Update the view, if already loaded.
             }
         }
+
+        public int Plus(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+        public int Minus(int num1, int num2)
+        {
+            return num1 - num2;
+        }
     }
 }
